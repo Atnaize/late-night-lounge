@@ -14,7 +14,7 @@ export default function Home() {
           "Laughter on Every Lip",
           1000,
         ]}
-        speed={99}
+        speed={20}
         repeat={Infinity}
       />
       <div className="">
