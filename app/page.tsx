@@ -61,14 +61,17 @@ const ShiftingCountdown = () => {
           />
         </div>
       </div>
-      <Image
-        className='mx-auto my-auto'
-        src='/abitbol.jpg'
-        width={200}
-        height={100}
-        alt=''
-        priority
-      />
+      <div className='mx-auto my-auto'>
+        <h2 className="text-2xl p-4">Abitbol ! L'homme le plus classe du monde !</h2>
+        <Image
+          className='mx-auto'
+          src='/abitbol.jpg'
+          width={200}
+          height={100}
+          alt=''
+          priority
+        />
+      </div>
       <div className='w-full max-w-5xl mx-auto flex items-center bg-gray-400 bottom-0 rounded-full'>
         <CountdownItem num={remaining.days} text='days' />
         <CountdownItem num={remaining.hours} text='hours' />
