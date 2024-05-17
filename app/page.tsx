@@ -62,7 +62,7 @@ const ShiftingCountdown = () => {
         </div>
       </div>
       <div className='mx-auto my-auto'>
-        <h2 className="text-2xl p-4">Abitbol ! L'homme le plus classe du monde !</h2>
+        <h2 className="text-2xl p-4">Georges Abitbol ! L homme le plus classe du monde !</h2>
         <Image
           className='mx-auto'
           src='/abitbol.jpg'
