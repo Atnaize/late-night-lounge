@@ -59,7 +59,7 @@ const Countdown = () => {
     }
 
     return (
-        <div className='w-full max-w-5xl mx-auto flex items-center bg-gray-400 bottom-0 rounded-full'>
+        <div className='w-full max-w-5xl mx-auto flex items-center bottom-0 bg-neutral-950/50 font-victorian-decade'>
             <CountdownItem num={remaining.days} text='days' />
             <CountdownItem num={remaining.hours} text='hours' />
             <CountdownItem num={remaining.minutes} text='minutes' />

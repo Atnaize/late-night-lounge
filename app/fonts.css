@@ -1,0 +1,8 @@
+@font-face {
+  font-family: victorianDecade;
+  src: url('/fonts/Victorian_Decade_Demo_Version.otf');
+}
+
+.font-victorian-decade {
+  font-family: victorianDecade!important;
+}
